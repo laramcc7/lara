@@ -7,7 +7,7 @@ import scipy.optimize as op
 from scipy.signal import find_peaks
 
 data = []
-with open('gammalong.txt') as f:
+with open('/w/work5/home/andrew/nept_data/wave0.txt') as f:
     for line in f:
         line = line.strip()
         if line.isdigit():
@@ -242,7 +242,7 @@ print(valid_gamma_time)
 
 # %%
 data2 = []
-with open('alphalong.txt') as f:
+with open('/w/work5/home/andrew/nept_data/wave1.txt') as f:
     for line in f:
         line = line.strip()
         if line.isdigit():
